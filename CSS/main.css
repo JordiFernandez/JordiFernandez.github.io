@@ -1,0 +1,68 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+header, nav, footer, main , aside {
+	height: 10%;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+header {
+	height: 20%;
+	background-color: DeepSkyBlue;
+}
+
+nav {
+	background-color: aquamarine;
+}
+
+footer {
+	background-color: navy;
+	position: absolute;
+	bottom: 0;
+}
+
+main{
+	height: 60%;
+	width: 50%;
+	float: left;
+	background-color: beige;
+}
+
+aside {
+	height: 60%;
+	width: 50%;
+	float: left;
+	background-color: salmon;
+}
+
+@media screen and (max-width: 500px){
+	footer{
+		background-color: darkcyan;
+	}
+}
+
+#container{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	z-index: 1;
+	background-color: rgba(255,255,255,0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+}
+
+#modal {
+	height: 40vh;
+	width: 30vw;
+	position: absolute;
+	background-color: chocolate;
+
+}
